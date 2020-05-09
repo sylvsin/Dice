@@ -1,0 +1,15 @@
+.myNavbar{
+    background-color: #000;
+}
+
+.myCol{
+    margin-top: 10px;
+}
+
+#movingImage {
+    position: relative;
+    -ms-transform: rotate(60deg); /* IE 9 */
+    -webkit-transform: rotate(60deg); /* Safari 3-8 */
+    -moz-transform: rotate(60deg); /* Firefox 3-8 */
+    transform: rotate(60deg); /* Standard syntax */
+}

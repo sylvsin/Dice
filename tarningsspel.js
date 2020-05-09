@@ -7,17 +7,6 @@ function displayImg(){
   document.dice.src="dice_images/"+imgArr[num];
   document.getElementById("movingImage").style.left = imageMove + "px";
   diceSound.play();
-  // var x = document.getElementById("movingImage").style.left = imageMove;
-  // do{
-  //   if(x == 0){
-  //     document.getElementById("movingImage").style.left = 500 + "px";
-  //   }
-  //   else{ 
-  //     document.getElementById("movingImage").style.left = 0 + "px"; 
-  //   }
-  //   diceSound.play();
-  // }
-  // while(x = 0); 
 }
 
 
